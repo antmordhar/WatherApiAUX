@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return "<h1>San Francisco Forecast</h1></br><a href='http://127.0.0.1:5000/24'>Predicción de mañana</a></br><a href='http://127.0.0.1:5000/48'>Predicción de pasado mañana</a></br><a href='http://127.0.0.1:5000/72'>Predicción de 3 días</a>",200
+    return "<h1>San Francisco Forecast</h1></br><a href='http://127.0.0.1:5001/24'>Predicción de mañana</a></br><a href='http://127.0.0.1:5001/48'>Predicción de pasado mañana</a></br><a href='http://127.0.0.1:5001/72'>Predicción de 3 días</a>",200
 
 @app.route('/24')
 def vc():
